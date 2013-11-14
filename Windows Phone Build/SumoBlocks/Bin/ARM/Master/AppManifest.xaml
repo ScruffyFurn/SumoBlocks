@@ -1,0 +1,14 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SumoBlocks" EntryPointType="SumoBlocks.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SumoBlocks" Source="SumoBlocks.dll" />
+    <AssemblyPart x:Name="Assembly-CSharp" Source="Assembly-CSharp.dll" />
+    <AssemblyPart x:Name="Photon3Unity3D" Source="Photon3Unity3D.dll" />
+    <AssemblyPart x:Name="UnityEngine" Source="UnityEngine.dll" />
+    <AssemblyPart x:Name="UnityEngineProxy" Source="UnityEngineProxy.dll" />
+    <AssemblyPart x:Name="WinRTBridge" Source="WinRTBridge.dll" />
+    <AssemblyPart x:Name="WinRTLegacy" Source="WinRTLegacy.dll" />
+    <AssemblyPart x:Name="BridgeInterface" Source="BridgeInterface.dll" />
+    <AssemblyPart x:Name="UnityEngineDelegates" Source="UnityEngineDelegates.dll" />
+    <AssemblyPart x:Name="UnityPlayer" Source="UnityPlayer.dll" />
+  </Deployment.Parts>
+</Deployment>
