@@ -143,7 +143,7 @@ namespace SumoBlocks
 
         void RootFrame_Obscured(object sender, ObscuredEventArgs e)
         {
-            UnityPlayer.UnityApp.Obscure();
+            UnityPlayer.UnityApp.Obscure(false);
         }
 
 		// Do not add any additional code to this method

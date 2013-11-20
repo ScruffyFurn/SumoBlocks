@@ -13,6 +13,10 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <DrawingSurfaceBackgroundGrid x:Name="DrawingSurfaceBackground" Loaded="DrawingSurfaceBackground_Loaded">
+        <Grid x:Name="ExtendedSplashGrid" Background="Black">
+            <Image x:Name="ExtendedSplashImage" Source="SplashScreenImageLandScape-Left.jpg" />
+            <ProgressBar x:Name="SplashProgress" Foreground="#FFFFFFFF" Background="#FF333333" Maximum="10000" Width="320" Height="25" RenderTransformOrigin="0.5,0.5"/>
+        </Grid>
     </DrawingSurfaceBackgroundGrid>
 
 </phone:PhoneApplicationPage>

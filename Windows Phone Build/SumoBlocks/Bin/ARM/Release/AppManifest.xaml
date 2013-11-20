@@ -2,7 +2,6 @@
   <Deployment.Parts>
     <AssemblyPart x:Name="SumoBlocks" Source="SumoBlocks.dll" />
     <AssemblyPart x:Name="Assembly-CSharp" Source="Assembly-CSharp.dll" />
-    <AssemblyPart x:Name="Photon3Unity3D" Source="Photon3Unity3D.dll" />
     <AssemblyPart x:Name="UnityEngine" Source="UnityEngine.dll" />
     <AssemblyPart x:Name="UnityEngineProxy" Source="UnityEngineProxy.dll" />
     <AssemblyPart x:Name="WinRTBridge" Source="WinRTBridge.dll" />

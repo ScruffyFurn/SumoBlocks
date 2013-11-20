@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
-using UnityEngine.WSA;
 using System.Collections;
+#if UNITY_METRO
+using UnityEngine.WSA;
+#endif
+
 
 public class GameController : MonoBehaviour {
 
@@ -144,9 +147,10 @@ public class GameController : MonoBehaviour {
 		
 		if(currentHighScore > score || currentHighScore == 0)
 		{
-
+#if UNITY_METRO
 			WindowsGateway.ShareHighScore();
 			UpdateTile(score);
+#endif
 			PlayerPrefs.SetFloat("HighScore", score);	
 		}
 	}
@@ -162,10 +166,11 @@ public class GameController : MonoBehaviour {
 			return 0.0f;
 		}
 	}
-
+#if UNITY_METRO
 	public void UpdateTile(float score)
 	{
 		UnityEngine.WSA.Tile test = Tile.main; 
 		test.Update("","","", "Best round time: " + score.ToString("0.00"));
 	}
+#endif
 }
