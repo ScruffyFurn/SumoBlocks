@@ -40,11 +40,14 @@ namespace Template
         private bool isUnityLoaded; 
 
         //Place holder for our default screeen size
-        private double defaultWidth = Window.Current.Bounds.Width;
-        private double defaultHeight = Window.Current.Bounds.Height;
+       // private double defaultWidth = Window.Current.Bounds.Width;
+        //private double defaultHeight = Window.Current.Bounds.Height;
 
         //added for share
         DataTransferManager dataTransferManager = DataTransferManager.GetForCurrentView();
+
+        
+       
 
 
         public MainPage(SplashScreen splashScreen)
@@ -54,6 +57,9 @@ namespace Template
             splash = splashScreen;
             OnResize();
             Window.Current.SizeChanged += new WindowSizeChangedEventHandler((o, e) => OnResize());
+
+            //Window Visibility event handler
+            Window.Current.VisibilityChanged += OnWindowVisibilityChanged;
 
             //added for share
             dataTransferManager.DataRequested += new TypedEventHandler<DataTransferManager,
@@ -131,6 +137,7 @@ namespace Template
                 PositionImage();
             }
 
+            /*
             /// <summary>
             /// Added to handle screen size change. Pauses the game
             /// </summary>
@@ -145,6 +152,24 @@ namespace Template
                 else if (Window.Current.Bounds.Width > defaultWidth / 2)
                 {
                     GameController.SP.unpaused();
+                }
+            }
+             */
+        }
+
+        private async void OnWindowVisibilityChanged(object sender, VisibilityChangedEventArgs e)
+        {
+            if (e.Visible)
+            {
+                if (AppCallbacks.Instance.IsInitialized())
+                    AppCallbacks.Instance.UnityPause(0);
+                return;
+            }
+            else
+            {
+                if (AppCallbacks.Instance.IsInitialized())
+                {
+                    AppCallbacks.Instance.UnityPause(1);
                 }
             }
         }

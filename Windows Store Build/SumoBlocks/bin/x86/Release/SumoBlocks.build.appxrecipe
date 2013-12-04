@@ -56,16 +56,16 @@
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\WinRTBridge.winmd">
       <PackagePath>WinRTBridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SquareTile.png">
-      <PackagePath>Assets\SquareTile.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SmallTile.png">
       <PackagePath>Assets\SmallTile.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SquareTile.png">
+      <PackagePath>Assets\SquareTile.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\StoreLogo.png">

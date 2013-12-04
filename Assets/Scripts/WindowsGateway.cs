@@ -13,20 +13,15 @@ public static class WindowsGateway
 	
 	static WindowsGateway()
 	{
-		
 		#if UNITY_METRO
-		
 		// unity now supports handling size changed in 4.3
-		//UnityEngine.WSA.Application.windowSizeChanged += WindowSizeChanged;
-
-
-		
+		UnityEngine.WSA.Application.windowSizeChanged += WindowSizeChanged;
 		#endif
 		
 		// create blank implementations to avoid errors within editor
 		UnityLoaded = delegate {};
 
-		//Our Share function
+		//blank implementation for our Share function
 		ShareHighScore = delegate {};
 		
 	}
@@ -36,22 +31,27 @@ public static class WindowsGateway
 	/// </summary>
 	public static Action UnityLoaded;
 
+	//called when we want to Share a high score
 	public static Action ShareHighScore;
 	
 	#if UNITY_METRO
-	
 	/// <summary>
 	/// Deal with windows resizing
 	/// </summary>
 	public static void WindowSizeChanged(int width, int height) 
 	{
+		if(width <= 500)
+		{
+			GameController.Instance.paused();
+		}
+		else
+		{
+			GameController.Instance.unpaused();
+		}
 
 	} 
-
-
-	
 	#endif
-	
+
 }
 
 #endif

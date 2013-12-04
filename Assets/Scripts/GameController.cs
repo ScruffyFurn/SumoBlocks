@@ -7,15 +7,30 @@ using UnityEngine.WSA;
 
 public class GameController : MonoBehaviour {
 
-	public static GameController SP;
-	GameObject Player, AI;
-	PlayerController playerController;
-	AIController aiController;
-	GUIText guiText;
+	//public variables
+	private static GameController instance;
 
-	GUIText timerText;
-	float roundTimer;
+	private GameController () {}
+	
+	public static GameController Instance 
+	{
+		get {
+			if (instance == null) {
+				instance = new GameController ();
+			}
+			return instance;
+		}
+	}
 
+	//private variables
+	private GameObject Player, AI;
+	private PlayerController playerController;
+	private AIController aiController;
+	private GUIText guiText;
+	private GUIText timerText;
+	private float roundTimer;
+
+	//our gamestates enumeration
 	enum GameState
 	{
 		Start,
@@ -24,11 +39,13 @@ public class GameController : MonoBehaviour {
 		Lost,
 	};
 
-	GameState CurrentState = GameState.Start;
+	//we create a variable to store the game state we are 
+	//currently in and set it to the start state
+	private GameState CurrentState = GameState.Start;
 
 	// Use this for initialization
 	void Start () {
-		SP = this;
+		//SP = this;
 		Player = GameObject.FindWithTag("Player");
 		AI = GameObject.FindWithTag("AI");
 
@@ -77,26 +94,22 @@ public class GameController : MonoBehaviour {
 			}
 			break;
 		case GameState.Won:
-
-				guiText.enabled = true;
-				guiText.text = "You Win!";
+			guiText.enabled = true;
+			guiText.text = "You Win!";
 			SaveHighScore(roundTimer);
 			if(Input.anyKey)
 			{
 				Reset();
 			}
-
 			break;
 		case GameState.Lost:
-
-				guiText.enabled = true;
-				guiText.text = "You Lost!";
+			guiText.enabled = true;
+			guiText.text = "You Lost!";
 			if(Input.anyKey)
 			{
 				Reset();
 			}
 			break;
-		
 		}
 	}
 
@@ -133,21 +146,32 @@ public class GameController : MonoBehaviour {
 	}
 
 	void SaveHighScore(float score)
-	{
-		
+	{	
+		//create a variable to hold the current high score
 		float currentHighScore;
+
+		//check if we have a saved high score
 		if(PlayerPrefs.HasKey("HighScore"))
 		{
+			//if we do save it to our holder variable
 			currentHighScore = PlayerPrefs.GetFloat("HighScore");
 		}
+		//if we don't, set our holder variable to the max value 
+        //for an int. We do this so that we have a current high score is
+        //initialized but the value will always be higher than the players 
+        //score
 		else
 		{
-			currentHighScore = 0.0f;
+			currentHighScore = int.MaxValue;
 		}
-		
-		if(currentHighScore > score || currentHighScore == 0)
+
+		//if our current high score is greater (lower time is better) 
+		//than our score we update the saved high score
+		if(currentHighScore > score)
 		{
 #if UNITY_METRO
+			//if we are on Windows 8.1 we call our Share function
+			//and update our Live Tile
 			WindowsGateway.ShareHighScore();
 			UpdateTile(score);
 #endif
@@ -157,20 +181,32 @@ public class GameController : MonoBehaviour {
 	
 	public float GetHighScore()
 	{
+		//if we have a saved high score return it
 		if(PlayerPrefs.HasKey("HighScore"))
 		{
 			return PlayerPrefs.GetFloat("HighScore");
 		}
+		//if not return 0
 		else 
 		{
 			return 0.0f;
 		}
 	}
+
+
 #if UNITY_METRO
+
+	//this is our function to update the games Live Tile
 	public void UpdateTile(float score)
 	{
-		UnityEngine.WSA.Tile test = Tile.main; 
-		test.Update("","","", "Best round time: " + score.ToString("0.00"));
+		//first we create a holder variable 
+		//and asign it to the default Tile 
+		UnityEngine.WSA.Tile liveTile = Tile.main;
+		//then we update the tile with our latest high score
+		//the first three strings are for images (medium,wide,large)
+		//the last string is for text to display
+		//you can also pass in an XML file to describe the tile
+		liveTile.Update("","","", "Best round time: " + score.ToString("0.00"));
 	}
 #endif
 }

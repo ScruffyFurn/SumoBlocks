@@ -17,17 +17,17 @@
     <AppXManifest Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-19T05:59:20.053</Modified>
+      <Modified>2013-11-28T07:19:39.092</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\Template.exe">
       <PackagePath>Template.exe</PackagePath>
-      <Modified>2013-11-20T05:48:17.778</Modified>
+      <Modified>2013-11-28T07:36:40.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2013-11-20T05:46:32.667</Modified>
+      <Modified>2013-11-28T07:31:08.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Boo.Lang.dll">
       <PackagePath>Boo.Lang.dll</PackagePath>
@@ -35,7 +35,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2013-11-20T05:46:30.417</Modified>
+      <Modified>2013-11-28T07:31:05.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\UnityEngineProxy.dll">
       <PackagePath>UnityEngineProxy.dll</PackagePath>
@@ -77,33 +77,33 @@
       <PackagePath>WinRTBridge.winmd</PackagePath>
       <Modified>2013-11-09T18:46:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SquareTile.png">
-      <PackagePath>Assets\SquareTile.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-19T04:23:03.196</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SmallTile.png">
       <PackagePath>Assets\SmallTile.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-19T04:23:03.194</Modified>
+      <Modified>2013-11-28T07:15:48.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-19T04:23:03.195</Modified>
+      <Modified>2013-11-28T07:18:39.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SquareTile.png">
+      <PackagePath>Assets\SquareTile.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-28T07:15:48.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-19T04:23:03.197</Modified>
+      <Modified>2013-11-28T07:15:48.808</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\mainData">
       <PackagePath>Data\mainData</PackagePath>
-      <Modified>2013-11-20T05:46:27.276</Modified>
+      <Modified>2013-11-28T07:31:03.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\PlayerConnectionConfigFile">
       <PackagePath>Data\PlayerConnectionConfigFile</PackagePath>
-      <Modified>2013-11-20T05:46:27.510</Modified>
+      <Modified>2013-11-28T07:31:03.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -111,27 +111,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2013-11-20T05:46:27.510</Modified>
+      <Modified>2013-11-28T07:31:03.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2013-11-20T05:46:32.682</Modified>
+      <Modified>2013-11-28T07:31:08.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2013-11-20T05:46:27.495</Modified>
+      <Modified>2013-11-28T07:31:03.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2013-11-19T05:59:16.482</Modified>
+      <Modified>2013-11-28T07:16:15.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2013-11-20T05:48:17.544</Modified>
+      <Modified>2013-11-28T07:16:15.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-19T05:59:16.874</Modified>
+      <Modified>2013-11-28T07:19:35.663</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
