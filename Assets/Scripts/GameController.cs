@@ -45,7 +45,6 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//SP = this;
 		Player = GameObject.FindWithTag("Player");
 		AI = GameObject.FindWithTag("AI");
 
