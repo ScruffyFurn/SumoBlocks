@@ -1,2 +1,0 @@
-Assembly-CSharp.dll
-Photon3Unity3D.dll
