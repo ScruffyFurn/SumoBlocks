@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MSLSTUDIO_420</Machine>
+    <WindowsUser>mslstudo</WindowsUser>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>SumoBlocks</PackageIdentityName>
+    <RegisteredManifestChecksum>E666E73BA363463E2116BEC77876A66B45DBCF78BF8143AF6F63FB80A03618F2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>SumoBlocks_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>SumoBlocks_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>SumoBlocks</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-28T10:19:38.000</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\Template.exe">
+      <PackagePath>Template.exe</PackagePath>
+      <Modified>2013-12-06T16:20:05.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Assembly-CSharp.dll">
+      <PackagePath>Assembly-CSharp.dll</PackagePath>
+      <Modified>2013-12-06T16:18:55.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Boo.Lang.dll">
+      <PackagePath>Boo.Lang.dll</PackagePath>
+      <Modified>2013-11-25T23:10:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\UnityEngine.dll">
+      <PackagePath>UnityEngine.dll</PackagePath>
+      <Modified>2013-12-06T16:18:52.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\UnityEngineProxy.dll">
+      <PackagePath>UnityEngineProxy.dll</PackagePath>
+      <Modified>2013-11-25T22:44:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\UnityScript.Lang.dll">
+      <PackagePath>UnityScript.Lang.dll</PackagePath>
+      <Modified>2013-11-25T23:10:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\WinRTLegacy.dll">
+      <PackagePath>WinRTLegacy.dll</PackagePath>
+      <Modified>2013-11-25T22:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2013-11-25T22:50:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\BridgeInterface.dll">
+      <PackagePath>BridgeInterface.dll</PackagePath>
+      <Modified>2013-11-25T22:44:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\UnityEngineDelegates.dll">
+      <PackagePath>UnityEngineDelegates.dll</PackagePath>
+      <Modified>2013-11-25T22:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\BridgeInterface.winmd">
+      <PackagePath>BridgeInterface.winmd</PackagePath>
+      <Modified>2013-11-25T22:44:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\UnityEngineDelegates.winmd">
+      <PackagePath>UnityEngineDelegates.winmd</PackagePath>
+      <Modified>2013-11-25T22:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2013-11-25T22:50:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\Players\Windows81\x86\Release\WinRTBridge.winmd">
+      <PackagePath>WinRTBridge.winmd</PackagePath>
+      <Modified>2013-11-25T22:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SmallTile.png">
+      <PackagePath>Assets\SmallTile.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-28T10:15:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-28T10:18:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SquareTile.png">
+      <PackagePath>Assets\SquareTile.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-28T10:15:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-28T10:15:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Data\mainData">
+      <PackagePath>Data\mainData</PackagePath>
+      <Modified>2013-12-06T16:18:50.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Data\PlayerConnectionConfigFile">
+      <PackagePath>Data\PlayerConnectionConfigFile</PackagePath>
+      <Modified>2013-12-06T16:18:50.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2013-11-25T22:28:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2013-12-06T16:18:50.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Data\managedAssemblies.txt">
+      <PackagePath>Data\managedAssemblies.txt</PackagePath>
+      <Modified>2013-12-06T16:18:55.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2013-12-06T16:18:50.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-11-28T10:16:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-11-28T10:16:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mslstudo\Desktop\SumoBlocks_new_clean\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-11-28T10:19:34.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
