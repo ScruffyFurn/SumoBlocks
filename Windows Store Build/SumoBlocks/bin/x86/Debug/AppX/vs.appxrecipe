@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>SumoBlocks</PackageIdentityName>
-    <RegisteredManifestChecksum>99C81010CA548EAF803FE6BDBC85DAFE9B73AA64D616C34D9EA2C26D07F6DA4B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>00F5F8CF5DD1C068495F85D94EFD2CC5F1B3844418A9F0B7331E8248ED751D8F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>SumoBlocks_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>SumoBlocks_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>SumoBlocks</RegisteredPackageID>
@@ -17,151 +17,147 @@
     <AppXManifest Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-11T03:47:26.198</Modified>
+      <Modified>2013-12-11T20:11:25.765</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Debug\Template.exe">
       <PackagePath>Template.exe</PackagePath>
-      <Modified>2013-11-14T02:00:22.961</Modified>
+      <Modified>2013-12-11T21:14:15.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2013-11-14T01:45:21.736</Modified>
+      <Modified>2013-12-11T21:14:03.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Boo.Lang.dll">
       <PackagePath>Boo.Lang.dll</PackagePath>
-      <Modified>2013-09-27T04:15:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Photon3Unity3D.dll">
-      <PackagePath>Photon3Unity3D.dll</PackagePath>
-      <Modified>2013-11-11T05:47:20.133</Modified>
+      <Modified>2013-11-25T23:10:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2013-11-14T01:45:19.327</Modified>
+      <Modified>2013-12-11T21:14:00.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\UnityEngineProxy.dll">
       <PackagePath>UnityEngineProxy.dll</PackagePath>
-      <Modified>2013-09-27T04:15:56.000</Modified>
+      <Modified>2013-11-25T22:38:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\UnityScript.Lang.dll">
       <PackagePath>UnityScript.Lang.dll</PackagePath>
-      <Modified>2013-09-27T04:15:08.000</Modified>
+      <Modified>2013-11-25T23:10:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\WinRTLegacy.dll">
       <PackagePath>WinRTLegacy.dll</PackagePath>
-      <Modified>2013-09-19T15:05:14.000</Modified>
+      <Modified>2013-11-25T22:13:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\UnityPlayer.dll">
       <PackagePath>UnityPlayer.dll</PackagePath>
-      <Modified>2013-09-27T04:23:22.000</Modified>
+      <Modified>2013-11-25T22:43:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\BridgeInterface.dll">
       <PackagePath>BridgeInterface.dll</PackagePath>
-      <Modified>2013-09-27T04:15:50.000</Modified>
+      <Modified>2013-11-25T22:38:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\UnityEngineDelegates.dll">
       <PackagePath>UnityEngineDelegates.dll</PackagePath>
-      <Modified>2013-09-27T04:15:54.000</Modified>
+      <Modified>2013-11-25T22:38:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\BridgeInterface.winmd">
       <PackagePath>BridgeInterface.winmd</PackagePath>
-      <Modified>2013-09-27T04:15:50.000</Modified>
+      <Modified>2013-11-25T22:38:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\UnityEngineDelegates.winmd">
       <PackagePath>UnityEngineDelegates.winmd</PackagePath>
-      <Modified>2013-09-27T04:15:52.000</Modified>
+      <Modified>2013-11-25T22:38:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
-      <Modified>2013-09-27T04:23:00.000</Modified>
+      <Modified>2013-11-25T22:43:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\Players\Windows81\x86\Debug\WinRTBridge.winmd">
       <PackagePath>WinRTBridge.winmd</PackagePath>
-      <Modified>2013-09-27T04:15:56.000</Modified>
+      <Modified>2013-11-25T22:38:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SquareTile.png">
       <PackagePath>Assets\SquareTile.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-15T23:21:10.000</Modified>
+      <Modified>2013-12-11T01:15:11.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SmallTile.png">
       <PackagePath>Assets\SmallTile.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-15T23:21:10.000</Modified>
+      <Modified>2013-12-11T01:15:11.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-15T23:21:10.000</Modified>
+      <Modified>2013-12-11T01:15:11.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-15T23:21:10.000</Modified>
+      <Modified>2013-12-11T01:15:11.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\mainData">
       <PackagePath>Data\mainData</PackagePath>
-      <Modified>2013-11-14T01:45:15.688</Modified>
+      <Modified>2013-12-11T21:13:58.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\PlayerConnectionConfigFile">
       <PackagePath>Data\PlayerConnectionConfigFile</PackagePath>
-      <Modified>2013-11-14T01:45:15.830</Modified>
+      <Modified>2013-12-11T21:13:58.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
-      <Modified>2013-09-27T04:11:48.000</Modified>
+      <Modified>2013-11-25T22:28:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2013-11-14T01:45:15.828</Modified>
+      <Modified>2013-12-11T21:13:58.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2013-11-14T01:45:21.782</Modified>
+      <Modified>2013-12-11T21:14:03.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2013-11-14T01:45:15.808</Modified>
+      <Modified>2013-12-11T21:13:58.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2013-11-11T03:47:21.960</Modified>
+      <Modified>2013-12-11T20:11:21.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2013-11-11T03:47:21.962</Modified>
+      <Modified>2013-12-11T20:11:21.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SumoBlocks\Windows Store Build\SumoBlocks\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-11T03:47:22.927</Modified>
+      <Modified>2013-12-11T20:11:22.224</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
       <Name>Microsoft.VCLibs.120.00.Debug</Name>
-      <Version>12.0.20827.3</Version>
+      <Version>12.0.21005.1</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.20827.3</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
       <Name>Microsoft.VCLibs.120.00.Debug</Name>
-      <Version>12.0.20827.3</Version>
+      <Version>12.0.21005.1</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.20827.3</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
       <Name>Microsoft.VCLibs.120.00.Debug</Name>
-      <Version>12.0.20827.3</Version>
+      <Version>12.0.21005.1</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.20827.3</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

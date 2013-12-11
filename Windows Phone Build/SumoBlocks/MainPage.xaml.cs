@@ -100,9 +100,9 @@ namespace SumoBlocks
 
 		private void PhoneApplicationPage_BackKeyPress(object sender, CancelEventArgs e)
 		{
-			e.Cancel = UnityApp.BackButtonPressed();
+			//e.Cancel = UnityApp.BackButtonPressed();
 
-            //GameController.Instance.backButtonPress();
+            GameController.Instance.Quit();
 		}
 
 		private void PhoneApplicationPage_OrientationChanged(object sender, OrientationChangedEventArgs e)

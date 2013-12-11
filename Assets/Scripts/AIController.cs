@@ -9,7 +9,7 @@ public class AIController : MonoBehaviour {
 
 	//Private Variables
 	private Transform PlayerTransfrom; 
-	private bool active = false;
+	private bool isActive = false;
 	private bool isOutOfBounds = false;
 	private bool surging = false;
 	private bool dodging = false;
@@ -17,15 +17,15 @@ public class AIController : MonoBehaviour {
 	private float dodgeTime;
 
 	//Getters and Setters
-	public bool Active
+	public bool IsActive
 	{
 		get
 		{
-			return active;
+			return isActive;
 		}
 		set
 		{
-			active = value;
+			isActive = value;
 		}
 	}
 
@@ -50,7 +50,7 @@ public class AIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(active) {
+		if(isActive) {
 			//updating manuver timers
 			surgeTime-=Time.deltaTime;
 			dodgeTime-=Time.deltaTime;

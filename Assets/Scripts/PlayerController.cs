@@ -6,19 +6,19 @@ public class PlayerController : MonoBehaviour {
 
 	public int PlayerSpeed = 10;
 	private float MoveAmmount = 0.0f;
-	private bool active = false;
+	private bool isActive = false;
 	private bool isOutOfBounds = false;
 
 	//Getters and Setters
-	public bool Active
+	public bool IsActive
 	{
 		get
 		{
-			return active;
+			return isActive;
 		}
 		set
 		{
-			active = value;
+			isActive = value;
 		}
 	}
 	
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(active)
+		if(isActive)
 		{
 			if(Application.platform == RuntimePlatform.WP8Player)
 			{

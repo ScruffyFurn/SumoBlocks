@@ -40,7 +40,7 @@ public static class WindowsGateway
 	/// </summary>
 	public static void WindowSizeChanged(int width, int height) 
 	{
-		if(width <= 500)
+		if(width <= GameController.Instance.startingScreenSize.Width /2)
 		{
 			GameController.Instance.paused();
 		}

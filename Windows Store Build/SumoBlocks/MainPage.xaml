@@ -9,8 +9,8 @@
 
     <SwapChainBackgroundPanel x:Name="DXSwapChainPanel">
         <Grid x:Name="ExtendedSplashGrid">
-            <Image x:Name="ExtendedSplashImage" Source="Assets/SplashScreen.png"/>
-            <ProgressBar x:Name="SplashProgress" Foreground="#FFFFFFFF" Background="#FF333333" Maximum="10000" Width="320" Height="25"/>
+            <Image x:Name="ExtendedSplashImage" Source="Assets/SplashScreen.png" Margin="-10,-277,10,277" Stretch="None"/>
+            <ProgressBar x:Name="SplashProgress" Foreground="#FFFFFFFF" Background="#FF333333" Maximum="10000" Width="320" Height="25" Margin="523,649,523,94"/>
         </Grid>
     </SwapChainBackgroundPanel>
 </Page>

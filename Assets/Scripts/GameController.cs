@@ -5,28 +5,30 @@ using UnityEngine.WSA;
 #endif
 
 
-public class GameController : MonoBehaviour {
+public sealed class GameController : MonoBehaviour {
 
-	//public variables
-	private static GameController instance;
-
+    private static readonly GameController instance = new GameController();
 	private GameController () {}
 	
 	public static GameController Instance 
 	{
-		get {
-			if (instance == null) {
-				instance = new GameController ();
-			}
-			return instance;
-		}
+        get
+        {
+            return instance;
+        }
 	}
+
+	public class StartingScreenSize {
+		public float Width;
+		public float Height;
+	}
+	public StartingScreenSize startingScreenSize = new StartingScreenSize();
 
 	//private variables
 	private GameObject Player, AI;
 	private PlayerController playerController;
 	private AIController aiController;
-	private GUIText guiText;
+    private GUIText displayText;
 	private GUIText timerText;
 	private float roundTimer;
 
@@ -45,11 +47,14 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//SP = this;
+
+		//Set the starting screen size
+		Instance.startingScreenSize.Width = Screen.width;
+
 		Player = GameObject.FindWithTag("Player");
 		AI = GameObject.FindWithTag("AI");
 
-		guiText = GameObject.Find("GUI Text").GetComponent<GUIText>();
+		Instance.displayText = GameObject.Find("GUI Text").GetComponent<GUIText>();
 		timerText = GameObject.Find("TimerText").GetComponent<GUIText>();
 
 		playerController = Player.GetComponent<PlayerController>();
@@ -66,13 +71,13 @@ public class GameController : MonoBehaviour {
 		{
 		case GameState.Start:
 
-			guiText.text = "Click, Tap or Press a key to Start";
+			Instance.displayText.text = "Click, Tap or Press a key to Start";
 
 			if(Input.anyKey)
 			{
-				guiText.enabled = false;
-				playerController.Active = true;
-				aiController.Active = true;
+                Instance.displayText.enabled = false;
+				playerController.IsActive = true;
+				aiController.IsActive = true;
 				CurrentState = GameState.Playing;
 			}
 			break;
@@ -94,17 +99,33 @@ public class GameController : MonoBehaviour {
 			}
 			break;
 		case GameState.Won:
-			guiText.enabled = true;
-			guiText.text = "You Win!";
+            Instance.displayText.enabled = true;
+            Instance.displayText.text = "You Win!";
 			SaveHighScore(roundTimer);
-			if(Input.GetKeyDown(KeyCode.Return))
+
+			if(UnityEngine.Application.platform == RuntimePlatform.WP8Player)
+			{
+				if(Input.anyKey)
+				{
+					Reset();
+				}
+			}
+			else if(Input.GetKeyDown(KeyCode.Return))
 			{
 				Reset();
 			}
 			break;
 		case GameState.Lost:
-			guiText.enabled = true;
-			guiText.text = "You Lost!";
+            Instance.displayText.enabled = true;
+            Instance.displayText.text = "You Lost!";
+
+			if(UnityEngine.Application.platform == RuntimePlatform.WP8Player)
+			{
+				if(Input.anyKey)
+				{
+					Reset();
+				}
+			}
 			if(Input.GetKeyDown(KeyCode.Return))
 			{
 				Reset();
@@ -113,24 +134,17 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	public void backButtonPress()
-	{
-		guiText.enabled = true;
-		guiText.text = "Back Button Pressed!";
-
-	}
-
 	public void paused()
 	{
 		Time.timeScale = 0.0f;
-		guiText.enabled = true;
-		guiText.text = "Paused!";
+        Instance.displayText.enabled = true;
+        Instance.displayText.text = "Paused!";
 	}
 
 	public void unpaused()
 	{
 		Time.timeScale = 1.0f;
-		guiText.enabled = false;
+        Instance.displayText.enabled = false;
 	}
 
 	void Reset()
@@ -140,10 +154,10 @@ public class GameController : MonoBehaviour {
 		aiController.OutOfBounds = false;
 		Player.transform.rotation = new Quaternion(0,0,0,0);
 		Player.transform.position = new Vector3(0.00375f,0.3530463f,-0.9551017f);
-		playerController.Active = false;
+		playerController.IsActive = false;
 		AI.transform.rotation = new Quaternion(0,0,0,0);
 		AI.transform.position = new Vector3(0.00375f,0.3449954f,0.9198211f);
-		aiController.Active = false;
+		aiController.IsActive = false;
 		CurrentState = GameState.Start;
 	}
 
